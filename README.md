@@ -1,0 +1,1 @@
+The official repository for the noteSRS autocucumber list. This list is administrated primarily by noteSRS devs and invited noteSRSers. Anyone may contribute to this list, but proper formatting is PARAMOUNT and STRICTLY ENFORCED. 
