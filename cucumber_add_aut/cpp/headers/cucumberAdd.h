@@ -7,9 +7,11 @@ class cucumberAdd {
 		
 		void setOrig(std::string);
 		void addReplacement(std::string);
+		void setReplacementIndex(int);
 		
 		std::string getOrig();
 		std::string getReplacement(int);
+		int getReplacementIndex();
 		
 		bool writeToIndex();
 		
