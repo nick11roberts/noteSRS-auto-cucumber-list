@@ -5,8 +5,7 @@ The official repository for the noteSRS autocucumber list.
 This list is administrated primarily by noteSRS devs and invited noteSRSers. 
 Anyone may contribute to this list, but proper formatting is PARAMOUNT and STRICTLY ENFORCED. 
 
-CONTRIBUTING
-==============
+**CONTRIBUTING**
 You may add to the list directly, but use proper formatting. Pull requests will be examined thoroughly. 
 You may also append entries to the list using the program(s) located in "noteSRS-auto-cucumber-list/cucumber_add_aut/".
 You may add new programs to "noteSRS-auto-cucumber-list/cucumber_add_aut/" to automate list appending. 
