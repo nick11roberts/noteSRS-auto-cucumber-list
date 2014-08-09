@@ -7,4 +7,4 @@ Navigate to this directory (noteSRS-auto-cucumber-list/cucumber_add_aut/cpp/) an
 
 	g++ cucumberAdd.cpp cucumberMain.cpp -std=c++11
 	./a.out
-
+While running the program, your input should contain NO SPACES. 
