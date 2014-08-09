@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-const bool DEBUG = false;
+const bool DEBUG = true;
 
 int main(){
 
@@ -12,6 +12,8 @@ int main(){
 	int numOfReplacements;
 	int i;
 	bool success;
+	
+	newEntry.getOrig();
 	
 	std::cout << "Original word" << std::endl
 		<< ">: ";
@@ -25,7 +27,7 @@ int main(){
 		
 	std::cin >> numOfReplacements;
 	
-	if( ! numOfReplacements){
+	if(!numOfReplacements){
 		std::cout << "Invalid " << std::endl 
 			<< "Quit " << std::endl;
 		return 0;
@@ -40,12 +42,15 @@ int main(){
 		newEntry.addReplacement(replacementWord);
 	}
 	
-	success = newEntry.writeToIndex();
+	success = newEntry.writeToIndexFile();
 	
 	if(success)
 		std::cout << "Success " << std::endl;
 	else
 		std::cout << "Failed " << std::endl;
+	
+	if(DEBUG)
+		std::cout << newEntry.getFinString() << std::endl;
 	
 	return 0;
 	
